@@ -1,0 +1,65 @@
+h1 {
+  text-align: center;
+}
+#billentyuzet {
+  max-height: 200px;
+  width: 600px;
+  margin: auto;
+}
+
+.billentyu {
+  border: 2px solid rgb(19, 133, 148);
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 1px;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.billentyu:hover {
+  background-color: rgb(173, 225, 231);
+}
+
+.karakter {
+  border: 1px solid rgb(99, 38, 220);
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  text-align: center;
+  font-size: 36px;
+  border-bottom: 5px solid rgba(18, 93, 103, 0.975);
+}
+
+#tartalom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  color: transparent;
+}
+
+.gray {
+  background-color: #b7b7b7;
+  cursor: default;
+  color: gray;
+}
+
+.kep {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+.kep img {
+  height: 100%;
+}
+
+.uzenet {
+  text-align: center;
+  font-size: large;
+  color: red;
+  font-weight: bold;
+}
